@@ -56,9 +56,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		945AEFBF30141BC8002AB79A /* pax-watchos Watch App */ = {
+		945AEFBF30141BC8002AB79A /* pax-watchOS Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "pax-watchos Watch App";
+			path = "pax-watchOS Watch App";
 			sourceTree = "<group>";
 		};
 		945AEFCD30141BCA002AB79A /* pax-watchos Watch AppTests */ = {
@@ -101,7 +101,7 @@
 		945AEFAE30141BC8002AB79A = {
 			isa = PBXGroup;
 			children = (
-				945AEFBF30141BC8002AB79A /* pax-watchos Watch App */,
+				945AEFBF30141BC8002AB79A /* pax-watchOS Watch App */,
 				945AEFCD30141BCA002AB79A /* pax-watchos Watch AppTests */,
 				945AEFD730141BCA002AB79A /* pax-watchos Watch AppUITests */,
 				945AEFB630141BC8002AB79A /* Products */,
@@ -154,7 +154,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				945AEFBF30141BC8002AB79A /* pax-watchos Watch App */,
+				945AEFBF30141BC8002AB79A /* pax-watchOS Watch App */,
 			);
 			name = "pax-watchos Watch App";
 			packageProductDependencies = (
