@@ -8,7 +8,7 @@ struct BreathingView: View {
             BreathingRing(phase: session.phase, progress: session.progress)
                 .frame(width: 100, height: 100)
 
-            Text(session.isRunning ? session.phase.title : "Ready")
+            Text(session.isRunning ? session.phase.instruction : "Ready")
                 .font(.headline)
                 .foregroundStyle(Color.paxTextPrimary)
 

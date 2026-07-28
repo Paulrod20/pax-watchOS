@@ -8,10 +8,12 @@ struct BreathingRing: View {
         switch phase {
         case .inhale:
             0.72 + (0.28 * progress)
-        case .hold:
+        case .holdAfterInhale, .holdAfterExhale:
             1
         case .exhale:
             1 - (0.28 * progress)
+        case .completed:
+            1
         }
     }
 
@@ -30,7 +32,7 @@ struct BreathingRing: View {
         }
         .scaleEffect(scale)
         .animation(.easeInOut(duration: 0.2), value: scale)
-        .accessibilityLabel(phase.title)
+        .accessibilityLabel(phase.instruction)
         .accessibilityValue("\(Int(progress * 100)) percent")
     }
 }

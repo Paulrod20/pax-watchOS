@@ -40,7 +40,7 @@ final class BreathingSession: ObservableObject {
 
     private func update(at date: Date) {
         let elapsed = date.timeIntervalSince(phaseStartedAt)
-        progress = min(elapsed / phase.duration, 1)
+        progress = min(elapsed / Double(phase.duration), 1)
 
         guard progress >= 1 else { return }
 
