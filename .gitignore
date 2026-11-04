@@ -1,0 +1,9 @@
+# Private planning notes (kept local, not published)
+CLAUDE.md
+docs/
+
+# macOS / Xcode
+.DS_Store
+xcuserdata/
+DerivedData/
+*.xcuserstate
